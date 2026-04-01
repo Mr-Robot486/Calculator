@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(135deg, #0a6216, #1E90FF, #FFD300);
+    background-size: 600% 600%;
+    animation: gradientFlow 8s ease infinite;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    background: #1E90FF;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.display{
+    width:320px;
+    padding: 34px;
+    margin: 10px;
+    border: none;
+    background: grey;
+    font-size: 20px;
+    text-align: right;
+    color: white ;
+    border-radius: 20px;
+
+    
+}
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+button:hover{
+    color: white;
+    background: black;
+    opacity: 0.8;
+}
+button:active {
+    transform: scale(0.95);
+}
+.operator{
+    background: orange;
+}
+.equal{
+    background: orangered;
+}
+.complex{
+    background: transparent;
+}
